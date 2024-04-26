@@ -1,7 +1,7 @@
 trigger:
 - week1
 
-pool: deen
+pool: Default
 
 steps:
 - task: AzureCLI@2
