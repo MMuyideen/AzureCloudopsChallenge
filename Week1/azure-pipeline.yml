@@ -4,7 +4,7 @@ trigger:
 pool: deen
 
 steps:
-- task: PowerShell@5
+- task: AzureCLI@2
   displayName: 'Running Pipeline Script'
   inputs:
     azureSubscription: 'CloudOps'
