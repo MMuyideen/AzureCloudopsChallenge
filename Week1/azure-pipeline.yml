@@ -1,0 +1,13 @@
+trigger:
+- week1
+
+pool: deen
+
+steps:
+- task: AzureCLI@2
+  displayName: 'Running Pipeline Script'
+  inputs:
+    azureSubscription: 'CloudOps'
+    scriptType: 'bash'
+    scriptLocation: 'scriptPath'
+    scriptPath: 'pipeline_script.sh'
