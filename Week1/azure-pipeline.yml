@@ -9,5 +9,5 @@ steps:
   inputs:
     azureSubscription: 'CloudOps'
     scriptType: 'bash'
-    scriptLocation: 'scripts'
-    scriptPath: 'devops-pipeline-script.sh'
+    scriptLocation: 'scriptPath'
+    scriptPath: './devops-pipeline-script.sh'
