@@ -24,7 +24,7 @@ echo "--------------------------------------------------------"
 Connection_String=$(az storage account show-connection-string --name $AccountName --resource-group $RG --query connectionString -o tsv)
 az storage blob upload-batch \
   -d "\$web" \
-  -s "web/" \
+  -s "Web" \
   --connection-string $Connection_String \
   --overwrite \
   --pattern "*"
