@@ -22,6 +22,10 @@ echo "|           Uploading to Azure Storage Account         |"
 echo "--------------------------------------------------------"
 
 Connection_String=$(az storage account show-connection-string --name $AccountName --resource-group $RG --query connectionString -o tsv)
+
+echo "Current directory: $(pwd)"
+ls -l
+
 az storage blob upload-batch \
   -d "\$web" \
   -s "web" \
