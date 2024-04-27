@@ -1,7 +1,7 @@
 trigger:
 - week1
 
-pool: Azure Pipelines
+pool: Default 
 
 steps:
 - task: AzureCLI@2
