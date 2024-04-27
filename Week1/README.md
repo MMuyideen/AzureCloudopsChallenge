@@ -9,4 +9,6 @@ add custom domain to script
 
 https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/windows-agent?view=azure-devops#permissions
 
-access roken to use all organizations
+access token to use all organizations
+
+changed the scripts to upload blob first

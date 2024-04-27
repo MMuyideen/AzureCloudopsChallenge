@@ -6,16 +6,6 @@ ProfileName="static-cloudops-cdn"
 EndPoint="cloudopsendpoints"
 
 
-echo "--------------------------------------------------------"
-echo "|   Removing previous content from CDN edge locations  |"
-echo "--------------------------------------------------------"
-
-az cdn endpoint purge \
-      --name $EndPoint \
-      --profile-name $ProfileName \
-      --resource-group $RG \
-      --content-paths "/*"
-
 
 echo "--------------------------------------------------------"
 echo "|           Uploading to Azure Storage Account         |"
@@ -28,7 +18,20 @@ ls -l
 
 az storage blob upload-batch \
   -d "\$web" \
-  -s "web" \
+  -s "Week1/web" \
   --connection-string $Connection_String \
   --overwrite \
   --pattern "*"
+
+
+echo "--------------------------------------------------------"
+echo "|   Removing previous content from CDN edge locations  |"
+echo "--------------------------------------------------------"
+
+az cdn endpoint purge \
+      --name $EndPoint \
+      --profile-name $ProfileName \
+      --resource-group $RG \
+      --content-paths "/*"
+
+
