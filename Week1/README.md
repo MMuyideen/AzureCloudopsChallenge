@@ -6,7 +6,7 @@ Hello Everyone, I am participating in [10 weeks of CloudOps Challenge](https://g
 
 I wrote about my challenges and improvements made in this [blog post](https://blog.mmuyideen.xyz)
 
-<img src="Architecturediagram.png" alt="Archtecture diagram">
+<img src="web/Architecturediagram.png" alt="Archtecture diagram">
 
 
 
