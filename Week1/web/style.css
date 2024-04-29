@@ -59,3 +59,11 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+/* style the image */
+.image{
+	width: 40rem;
+	height: auto;
+	padding: 9px;
+	align-items: center;
+}

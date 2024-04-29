@@ -1,14 +1,8 @@
 # AzureCloudopsChallenge
 
-Copied both repo
-copied the html and css file
+Hello Everyone, I am participating in [10 weeks of CloudOps Challenge](https://github.com/piyushsachdeva/10weeksofcloudops/blob/main/README.md) by [Piyush Sachdeva](https://www.linkedin.com/in/piyush-sachdeva/) and here is my challenge for the First week
 
+## Static Website Hosting on Azure and implement CICD
 
-fixed issue by adding --origin-host-header
-add custom domain to script
+I wrote about my challenges and improvements made in this [blog post] (blog.mmuyideen.xyz).
 
-https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/windows-agent?view=azure-devops#permissions
-
-access token to use all organizations
-
-changed the scripts to upload blob first
